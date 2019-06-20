@@ -1,0 +1,21 @@
+{
+  "name": "graphql-101",
+  "version": "0.0.1",
+  "description": "A small javascript demo of graphql",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "graphql",
+    "apollo",
+    "demo"
+  ],
+  "author": "cowlingj",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^2.6.3",
+    "graphql": "^14.3.1",
+    "graphql-import": "^0.7.1"
+  }
+}

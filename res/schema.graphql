@@ -1,0 +1,41 @@
+
+scalar DateTime
+
+type User {
+    id: String
+    name: String
+    elo: Int
+}
+
+type Game {
+    id: String
+    users: [User]
+    DateTime: DateTime
+}
+
+type Result {
+    id: String
+    game: Game
+    score: [Score]
+    eloDelta: [EloDelta]
+}
+
+type Score {
+    user: User
+    value: Int
+}
+
+type EloDelta {
+    user: User
+    oldElo: Int
+    newElo: Int
+    diff: Int
+}
+
+type Query {
+    users: [User]
+}
+
+type Query {
+    games: [Game]
+}
