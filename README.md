@@ -1,6 +1,6 @@
 ---
 Date: 20/06/19
-Speaker: matthew (matthew.leak@infinityworks.com)
+Speaker: matthew Leak @ InfinityWorks
 ---
 
 ## Issues with REST
