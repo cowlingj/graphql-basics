@@ -10,7 +10,7 @@ type User {
 type Game {
     id: String
     users: [User]
-    DateTime: DateTime
+    dateTime: DateTime
 }
 
 type Result {
